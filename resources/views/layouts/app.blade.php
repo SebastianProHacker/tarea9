@@ -12,4 +12,6 @@
     </div>
 @stop
 
-@yield('footer')
+@section('footer')
+    @include('partials.footer')
+@stop
